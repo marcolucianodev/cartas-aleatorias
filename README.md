@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+Avisos antes de começar
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    Crie um repositório no seu GitHub sem citar nada relacionado a WA.
 
-## Available Scripts
+    Faça seus commits no seu repositório.
 
-In the project directory, you can run:
+    Envie o link do seu repositório para o email do recrutador responsável.
 
-### `npm start`
+    Fique à vontade para perguntar qualquer dúvida aos recrutadores.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+OBJETIVO: Criar um baralho de cartas aleatórias.
 
-### `npm test`
+Descrição do Projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    Consumir uma API Externa (utilize uma dessas APIs: https://github.com/public-apis/public-apis).
 
-### `npm run build`
+    Construir uma tela que exibe cinco cartas, o conteúdo dessas cartas deve ser alimentado via API.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    Cada carta deve conter pelo menos: nome, imagem, descrição e um valor aleatório de 0 a 10 que podemos chamar de pontos.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    Ao acessar a primeira página ele deve digitar um nome e clicar em ver cartas.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    Na tela seguinte ele visualiza as 5 cartas e o  seu nome no canto superior direito.
 
-### `npm run eject`
+    Na tela de cartas ele tem dois botões, onde um deles permite puxar uma nova carta aleatoriamente, ele pode apertar apenas 3 vezes.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    As cartas nunca são descartadas, caso ele puxe 3 novas cartas ele estará visualizando 8 cartas.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    O segundo botão permite a ele embaralhar a ordem das cartas que está visualizando.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+Critérios de avaliação:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    Sua aplicação atende funcionalmente o que foi pedido.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    Você documentou a maneira de configurar o ambiente e rodar sua aplicação na máquina do avaliador.
 
-### Code Splitting
+    Você seguiu as instruções enviadas.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    Você segue as boas práticas de programação.
 
-### Analyzing the Bundle Size
+    O código escrito é fácil de entender e manter.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+Pontos de atenção: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    Fique a vontade para adicionar bibliotecas externas ao projeto.
