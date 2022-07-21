@@ -18,7 +18,6 @@ export const ButtonContent = styled.button`
   background-color:#c62d1f;
   border-radius:18px;
   display:inline-block;
-  /* display: flex; */
   cursor:pointer;
   color:#ffffff;
   font-family:Arial;
@@ -26,7 +25,6 @@ export const ButtonContent = styled.button`
   padding:7px 50px;
   text-decoration:none;
   text-shadow:0px 1px 0px #810e05;
-  /* margin: auto; */
   border: none;
 
   :hover {
