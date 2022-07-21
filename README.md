@@ -1,49 +1,44 @@
-Avisos antes de começar
+# Cartas Aleatórias
 
-    Crie um repositório no seu GitHub sem citar nada relacionado a WA.
+[![Preview Image](https://github.com/marcolucianodev/advice-generator-app/blob/master/public/advice-generator.png)](https://app-advice-generator.netlify.app/)
 
-    Faça seus commits no seu repositório.
+Projeto proposto em um desafio, onde eu tinha que desenvolver uma aplicação que consuma uma API externa pública, onde eu poderia escolher qual API consumir. Eu escolhi a API [Zoo Animal API](https://zoo-animal-api.herokuapp.com/), que retorna algumas informações de animais diversos.
 
-    Envie o link do seu repositório para o email do recrutador responsável.
+Esse projeto foi desenvolvido em React Js, Styled-Components, os Hooks useState e useEffect, Context API para gerenciar estados e React Router para as rotas.
 
-    Fique à vontade para perguntar qualquer dúvida aos recrutadores.
+Conforme proposto no desafio, eu desenvolvi uma página inicial que solicita que o usuário digite seu nome e clique em um botão para ser redirecionado á tela principal. Nessa tela principal o usuário visualiza seu nome digitado na tela anterior e visualiza 5 cartas que contém dados sobre diversos animais pelo mundo. Também na tela principal existe dois botões, sendo um deles para adicionar mais cartas ao deck. Porém o usuário só pode adicionar mais três cartas aleatórias, sendo possível visualizar até oito cartas na tela. O outro botão tem a função de recarregar a tela com novas cartas aleatórias e permitindo o usuário refazer o processo de adicionar mais três cartas.
 
+[Link do Projeto Online](https://app-advice-generator.netlify.app/)
 
-OBJETIVO: Criar um baralho de cartas aleatórias.
+### Pré-requisitos
 
-Descrição do Projeto
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Npm](https://www.npmjs.com/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-    Consumir uma API Externa (utilize uma dessas APIs: https://github.com/public-apis/public-apis).
+### 🎲 Rodando a aplicação
 
-    Construir uma tela que exibe cinco cartas, o conteúdo dessas cartas deve ser alimentado via API.
+```bash
+# Clone este repositório
+$ git clone https://github.com/marcolucianodev/cartas-aleatorias.git
 
-    Cada carta deve conter pelo menos: nome, imagem, descrição e um valor aleatório de 0 a 10 que podemos chamar de pontos.
+# Acesse a pasta do projeto no terminal/cmd
+$ cd advice-generator-app
 
-    Ao acessar a primeira página ele deve digitar um nome e clicar em ver cartas.
+# Instale as dependências
+$ npm install
 
-    Na tela seguinte ele visualiza as 5 cartas e o  seu nome no canto superior direito.
+# Execute a aplicação
+$ npm start
 
-    Na tela de cartas ele tem dois botões, onde um deles permite puxar uma nova carta aleatoriamente, ele pode apertar apenas 3 vezes.
+# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+```
 
-    As cartas nunca são descartadas, caso ele puxe 3 novas cartas ele estará visualizando 8 cartas.
+### 🛠 Tecnologias
 
-    O segundo botão permite a ele embaralhar a ordem das cartas que está visualizando.
+As seguintes tecnologias/ferramentas foram usadas na construção do projeto:
 
+- [React](https://pt-br.reactjs.org/)
+- [Styled-components](https://styled-components.com/)
+- [Zoo Animal API](https://zoo-animal-api.herokuapp.com/)
 
-
-Critérios de avaliação:
-
-    Sua aplicação atende funcionalmente o que foi pedido.
-
-    Você documentou a maneira de configurar o ambiente e rodar sua aplicação na máquina do avaliador.
-
-    Você seguiu as instruções enviadas.
-
-    Você segue as boas práticas de programação.
-
-    O código escrito é fácil de entender e manter.
-
-
-Pontos de atenção: 
-
-    Fique a vontade para adicionar bibliotecas externas ao projeto.
