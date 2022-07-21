@@ -1,12 +1,12 @@
 # Cartas Aleatórias
 
 Tela de Inicial com solicitação do nome do usuário:
-[![Preview Image](https://github.com/marcolucianodev/cartas-aleatorias/blob/master/public/screen-cartas-aleatorias1.png)](https://app-advice-generator.netlify.app/)
+[![Preview Image](https://github.com/marcolucianodev/cartas-aleatorias/blob/master/public/screen-cartas-aleatorias1.png)](https://cartas-aleatorias.netlify.app/)
 
 Tela principal com conteúdo das cartas:
-[![Preview Image](https://github.com/marcolucianodev/cartas-aleatorias/blob/master/public/screen-cartas-aleatorias2.png)](https://app-advice-generator.netlify.app/)
+[![Preview Image](https://github.com/marcolucianodev/cartas-aleatorias/blob/master/public/screen-cartas-aleatorias2.png)](https://cartas-aleatorias.netlify.app/)
 
-[![Preview Image](https://github.com/marcolucianodev/cartas-aleatorias/blob/master/public/screen-cartas-aleatorias3.png)](https://app-advice-generator.netlify.app/)
+[![Preview Image](https://github.com/marcolucianodev/cartas-aleatorias/blob/master/public/screen-cartas-aleatorias3.png)](https://cartas-aleatorias.netlify.app/)
 
 Projeto proposto em um desafio, onde eu tinha que desenvolver uma aplicação que consuma uma API externa pública, onde eu poderia escolher qual API consumir. Eu escolhi a API [Zoo Animal API](https://zoo-animal-api.herokuapp.com/), que retorna algumas informações de animais diversos.
 
@@ -14,7 +14,7 @@ Esse projeto foi desenvolvido em React Js, Styled-Components, os Hooks useState,
 
 Conforme proposto no desafio, eu desenvolvi uma página inicial que solicita que o usuário digite seu nome e clique em um botão para ser redirecionado á tela principal. Nessa tela principal o usuário visualiza seu nome digitado na tela anterior e visualiza 5 cartas que contém dados sobre diversos animais pelo mundo. Também na tela principal existe dois botões, sendo um deles para adicionar mais cartas ao deck. Porém o usuário só pode adicionar mais três cartas aleatórias, sendo possível visualizar até oito cartas na tela. O outro botão tem a função de recarregar a tela com novas cartas aleatórias e permitindo o usuário refazer o processo de adicionar mais três cartas.
 
-[Link do Projeto Online](https://app-advice-generator.netlify.app/)
+[Link do Projeto Online](https://cartas-aleatorias.netlify.app/)
 
 ### Pré-requisitos
 
