@@ -4,9 +4,9 @@ Tela de Inicial com solicitação do nome do usuário:
 [![Preview Image](https://github.com/marcolucianodev/cartas-aleatorias/blob/master/public/screen-cartas-aleatorias1.png)](https://app-advice-generator.netlify.app/)
 
 Tela principal com conteúdo das cartas:
-[![Preview Image](https://github.com/marcolucianodev/cartas-aleatorias/blob/master/public/screen-cartas-aleatorias1.png)](https://app-advice-generator.netlify.app/)
+[![Preview Image](https://github.com/marcolucianodev/cartas-aleatorias/blob/master/public/screen-cartas-aleatorias2.png)](https://app-advice-generator.netlify.app/)
 
-[![Preview Image](https://github.com/marcolucianodev/cartas-aleatorias/blob/master/public/screen-cartas-aleatorias1.png)](https://app-advice-generator.netlify.app/)
+[![Preview Image](https://github.com/marcolucianodev/cartas-aleatorias/blob/master/public/screen-cartas-aleatorias3.png)](https://app-advice-generator.netlify.app/)
 
 Projeto proposto em um desafio, onde eu tinha que desenvolver uma aplicação que consuma uma API externa pública, onde eu poderia escolher qual API consumir. Eu escolhi a API [Zoo Animal API](https://zoo-animal-api.herokuapp.com/), que retorna algumas informações de animais diversos.
 
