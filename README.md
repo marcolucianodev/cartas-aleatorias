@@ -8,7 +8,7 @@ Tela principal com conteúdo das cartas:
 
 [![Preview Image](https://github.com/marcolucianodev/cartas-aleatorias/blob/master/public/screen-cartas-aleatorias3.png)](https://cartas-aleatorias.netlify.app/)
 
-Projeto proposto em um desafio, onde eu tinha que desenvolver uma aplicação que consuma uma API externa pública, onde eu poderia escolher qual API consumir. Eu escolhi a API [Zoo Animal API](https://zoo-animal-api.herokuapp.com/), que retorna algumas informações de animais diversos.
+Projeto proposto em um desafio, onde eu tinha que desenvolver uma aplicação que consuma uma API externa pública, onde eu poderia escolher dentre uma listagem de APIs. Eu escolhi a API [Zoo Animal API](https://zoo-animal-api.herokuapp.com/), que retorna dados de animais diversos.
 
 Esse projeto foi desenvolvido em React Js, Styled-Components, os Hooks useState, useEffect, useNavigate, useContext, Context API para gerenciar estados e React Router para as rotas.
 
