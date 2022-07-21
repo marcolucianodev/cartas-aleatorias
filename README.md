@@ -12,7 +12,11 @@ Projeto proposto em um desafio, onde eu tinha que desenvolver uma aplicação qu
 
 Esse projeto foi desenvolvido em React Js, Styled-Components, os Hooks useState, useEffect, useNavigate, useContext, Context API para gerenciar estados e React Router para as rotas.
 
-Conforme proposto no desafio, eu desenvolvi uma página inicial que solicita que o usuário digite seu nome e clique em um botão para ser redirecionado á tela principal. Nessa tela principal o usuário visualiza seu nome digitado na tela anterior e visualiza 5 cartas que contém dados sobre diversos animais pelo mundo. Também na tela principal existe dois botões, sendo um deles para adicionar mais cartas ao deck. Porém o usuário só pode adicionar mais três cartas aleatórias, sendo possível visualizar até oito cartas na tela. O outro botão tem a função de recarregar a tela com novas cartas aleatórias e permitindo o usuário refazer o processo de adicionar mais três cartas.
+Conforme proposto no desafio, eu desenvolvi uma página inicial que solicita que o usuário digite seu nome e clique em um botão para ser redirecionado á tela principal. Nessa tela principal o usuário visualiza seu nome digitado na tela anterior e visualiza 5 cartas que contém dados sobre diversos animais pelo mundo.
+
+Em cada carta tem um valor aleatório de 0 á 10 definido como "Points", onde esse número é gerado através da função Math.random().
+
+Também na tela principal existe dois botões, sendo um deles para adicionar mais cartas ao deck. Porém o usuário só pode adicionar mais três cartas aleatórias, sendo possível visualizar até oito cartas na tela. O outro botão tem a função de recarregar a tela com novas cartas aleatórias e permitindo o usuário refazer o processo de adicionar mais três cartas.
 
 [Link do Projeto Online](https://cartas-aleatorias.netlify.app/)
 
